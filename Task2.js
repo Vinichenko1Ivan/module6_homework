@@ -5,11 +5,7 @@ function determinant(_numb) {
     return 'Данные неверны'; 
   }
 
-  else if (_numb <= 0) {
-    return 'Данные неверны';
-  }
-
-  else if (_numb === 1 )  {
+  else if (_numb <= 0 || _numb === 1) {
     return 'Данные неверны';
   }
 
